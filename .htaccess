@@ -1,0 +1,10 @@
+RewriteEngine on 
+RewriteBase /library
+# RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ([a-zA-Z0-9_-]+)/(.*\.jpg|.*\.gif|.*\.css|.*\.js|.*\.png|.*\.otf|.*\.svg|.*\.eot|.*\.ttf|.*\.woff|.*\.woff2)$ $2 [L]
+
+RewriteRule ^backoffice/login$ backoffice/login.php
+RewriteRule ^index$ index.php
+
