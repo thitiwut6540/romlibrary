@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-6 col-md-2 col-lg-auto pr-0 pb-1">
                         <select class="custom-select custom-select-sm">
-                            <option selected>ประเภทมอนเตอร์</option>
+                            <option selected>ประเภทมอนเตอร์testtest</option>
                             <option value="1">มอนสเตอร์</option>
                             <option value="2">มินิบอส</option>
                             <option value="3">บอส</option>
